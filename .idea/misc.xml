@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Test/MyTestApplication/app/src/main/res/layout/activity_getnumber.xml" value="0.1" />
         <entry key="..\:/Test/MyTestApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Test/MyTestApplication/app/src/main/res/layout/row_button.xml" value="0.1" />
       </map>
     </option>
   </component>
