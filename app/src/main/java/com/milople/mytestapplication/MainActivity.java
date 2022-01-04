@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("jsdjf","dkf");
         Init();
         HandleEvent();
-        Toastermessage.toasty(this,"HELLO");
+       // Toastermessage.toasty(this,"HELLO");
         intent=getIntent();
         no=intent.getStringExtra("qty");
         //Log.e("no ",no);
@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         adapter.notifyDataSetChanged();                arrayAdapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, list);
 
         Log.e("list",list+"");
-        Toastermessage.toasty(this,"HELLO");
+       // Toastermessage.toasty(this,"HELLO");
+        Toastermessage.getInstance().toasty(this,"HELLO");
     }
     private void HandleEvent() {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

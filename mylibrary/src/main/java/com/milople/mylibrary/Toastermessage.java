@@ -23,7 +23,7 @@ public class Toastermessage {
         Matcher regMatcher = regexPattern.matcher(email);
         return regMatcher.matches();
     }
-    public static void toasty(Context ctx, String str)
+    public void toasty(Context ctx, String str)
     {
         Toast.makeText(ctx, str, Toast.LENGTH_SHORT).show();
     }
