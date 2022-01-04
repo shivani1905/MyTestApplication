@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("jsdjf","dkf");
         Init();
         HandleEvent();
-       // Toastermessage.toasty(this,"HELLO");
+        Toastermessage.getInstance().toasty(this,"HELLO");
         intent=getIntent();
         no=intent.getStringExtra("qty");
         //Log.e("no ",no);
